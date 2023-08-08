@@ -12,9 +12,9 @@ debugdir "%{wks.location}/Output"
 
 files {"src/**.h", "src/**.cpp"}
 
-includedirs {"src", "%{IncludeDir.SDL}"}
+includedirs {"src", "%{IncludeDir.SDL}", "%{IncludeDir.ImGui}", "%{IncludeDir.glad}", "%{IncludeDir.IconFontCppHeaders}"}
 
-links {"ImGui", "SDL2", "SDL2main"}
+links {"ImGui", "SDL2", "SDL2main", "Glad"}
 
 filter "system:windows"
 systemversion "latest"

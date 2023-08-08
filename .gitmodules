@@ -1,6 +1,7 @@
 [submodule "vendor/ImGui"]
 	path = vendor/ImGui
 	url = https://github.com/ZaroDev/imgui.git
+	branch = docking
 [submodule "vendor/SDL"]
 	path = vendor/SDL
 	url = https://github.com/ZaroDev/SDL
