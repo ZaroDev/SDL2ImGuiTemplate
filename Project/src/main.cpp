@@ -9,7 +9,7 @@
 #include <backends/imgui_impl_opengl3.h>
 #include <backends/imgui_impl_sdl2.h>
 
-#include <ImGuiBuild.cpp>
+#include <ImGuiBuild.h>
 
 #include <FontIcons/IconsForkAwesome.h>
 
