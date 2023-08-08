@@ -30,7 +30,6 @@ Debug
 bin
 bin-int
 /.vs
-/Editor/Empathy.dll
 
 
 # VS Files
@@ -40,4 +39,4 @@ bin-int
 *.vcxproj.user
 
 # Premake
-! premake5.exe
+! vendor/bin/premake5.exe
